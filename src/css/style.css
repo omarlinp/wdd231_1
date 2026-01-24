@@ -171,13 +171,15 @@ svg {
   background-color: var(--bs-black);
   fill: white;
 }
-.global-header{
+
+.global-header {
   background-color: var(--bs-black);
   color: white;
   display: flex;
   justify-content: space-between;
   fill: white;
 }
+
 .global-header a:link,
 .global-header a:visited,
 #park-header a:link,
