@@ -270,3 +270,7 @@ svg {
   width: 24px;
   height: 24px;
 }
+.hero-banner img{
+  background-image: url("https://www.nps.gov/common/uploads/structured_data/3C7D5920-1DD8-B71B-0B83F012ED802CEA.jpg");
+  object-fit: fill;
+}
