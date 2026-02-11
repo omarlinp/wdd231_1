@@ -13,11 +13,13 @@ function setHeaderInfo(data) {
   document.querySelector(".hero-banner__content").innerHTML =
     parkInfoTemplate(data);
 }
-function setFooter(data){
+
+function setFooter(data) {
   const footerEl = document.querySelector("#park-footer");
-  footerEl.innerHTML = footerTemplate(data);
+  footerEl.insertAdjacentHTML("afterbegin", footerTemplate(data));
 }
-export default function setHeaderFooter(data) {
-    setHeaderInfo(data);
-    setFooter(data);
+
+export default function setHeaderFooter(parkData) {
+  setHeaderInfo(parkData);
+  setFooter(parkData);
 }
